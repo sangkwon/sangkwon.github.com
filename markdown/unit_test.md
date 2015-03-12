@@ -3,9 +3,11 @@
 	./gradlew clean build -x test
 	./gradlew jTR : jacoco report 테스트케이스 실패시에도 나오도록
 
-### JacocoReport 파일 위치
-* 
-
+### Report 파일 위치
+* Jacoco
+	* <Module>/build/reports/jacoco/jacocoTestReport/html/index.html
+* TestCase
+	* <Module>/build/test-report/debug/index.html
 
 ### Robolectric 사용
 	Context context = Robolectric.application.getApplicationContext();
