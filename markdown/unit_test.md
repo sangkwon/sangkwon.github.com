@@ -3,8 +3,10 @@
 	./gradlew clean build -x test
 	./gradlew jTR : jacoco report 테스트케이스 실패시에도 나오도록
 
+### JacocoReport 파일 위치
+* 
+
 
 ### Robolectric 사용
-
 	Context context = Robolectric.application.getApplicationContext();
 	context = Robolectric.buildActivity(Activity.class).create().get();
