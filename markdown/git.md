@@ -13,4 +13,8 @@
 * git rebase -i
 
 	
+### scripts
+git fetch http://gitlab.coupang.net/eldorado/coupangandroid.git feature/larva/ELDO-1610_checkout
+git checkout -b eldorado/coupangandroid-feature/larva/ELDO-1610_checkout FETCH_HEAD
+
 
